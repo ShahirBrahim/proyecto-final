@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Tecnología</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- SweetAlert -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11">
+</head>
+
+<body>
+    <h1>Tienda de Tecnología</h1>
+
+    <h2>Productos Disponibles</h2>
+    <div id="productos" class="container">
+    </div>
+
+    <button id="ver-carrito">Ver Carrito</button>
+
+    <div id="carrito" class="container" style="display: none;">
+        <h2>Carrito</h2>
+        <div id="carrito-items">
+        </div>
+        <p>Total: $<span id="total">0</span></p>
+        <button id="vaciar-carrito">Vaciar Carrito</button>
+        <button id="comprar">Comprar</button>
+    </div>
+
+    <!-- Mensaje de compra -->
+    <p id="mensaje-compra" style="display: none;"></p>
+
+    <!-- Footer -->
+    <!-- Agrego un footer para mejor vista -->
+    <div class="container">
+        <footer class="py-3 my-5">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2024 Company, Inc</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- SweetAlert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+[
+    {
+        "nombre": "Notebook",
+        "precio": 15000,
+        "imagen": "img/notebook.jpeg"
+    },
+    {
+        "nombre": "Celular",
+        "precio": 20000,
+        "imagen": "img/celular.jpeg"
+    },
+    {
+        "nombre": "Tablet",
+        "precio": 10000,
+        "imagen": "img/tablet.jpg"
+    },
+    {
+        "nombre": "Auriculares",
+        "precio": 5000,
+        "imagen": "img/auriculares.jpeg"
+    },
+    {
+        "nombre": "Smartwatch",
+        "precio": 8000,
+        "imagen": "img/smartwatch.jpeg"
+    },
+    {
+        "nombre": "Monitor",
+        "precio": 6000,
+        "imagen": "img/monitor.jpeg"
+    },
+    {
+        "nombre": "Cámara",
+        "precio": 12000,
+        "imagen": "img/camara.png"
+    },
+    {
+        "nombre": "Parlante",
+        "precio": 7000,
+        "imagen": "img/parlante.jpg"
+    }
+]
